@@ -1,8 +1,14 @@
 /*
  * the complete version of UNION FIND.
  * 2013.02.16
- 在Union-Find 中，输入p，q两个数，如果说p与q已经connected，那么可以ignore然后continue，如果说p，q没有connected，输出到屏幕。此过程可以用实验室用网线实现电脑联网来理解。若某A，B电脑没有相连，则需要网线来连接A，B，这个时候就可以输出AB来告诉用户需要用网线来连接A，B。
-     再者，如果说要询问实验室电脑是否两两相连，那么可以通过components的数量count来看出。这是因为，如果说所有的点都属于同一个并查集，那么并查集的数量就只有一个，也就是说，属于同一个并查集的任意两个element都是connected的。
+    
+    在Union-Find 中，输入p，q两个数，如果说p与q已经connected，那么可以ignore然后continue，如果说p，q没有connected，输出到屏
+    幕。此过程可以用实验室用网线实现电脑联网来理解。若某A，B电脑没有相连，则需要网线来连接A，B，这个时候就可以输出AB来告
+    诉用户需要用网线来连接A，B。
+   
+     再者，如果说要询问实验室电脑是否两两相连，那么可以通过components的数量count来看出 。
+     这是因为，如果说所有的点都属于同一个并查集，那么并查集的数量就只有一个，也就是说，属于同一个并查集的任意两个elemen t
+     都是connected的。
 
  */
 
