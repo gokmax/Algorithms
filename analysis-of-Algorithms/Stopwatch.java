@@ -1,4 +1,9 @@
+/*
+ * Stopwatch.java is a datatype that measures the elapsed running time of a program
+ *
+ */
 public class Stopwatch {
+
     private final long start;
 
     // Create a stopwatch object.

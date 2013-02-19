@@ -1,4 +1,11 @@
+/*
+ * DoublingTest.java generates a sequence of random input arrays, doubling the 
+ * arraysize at each step, and prints the running times of ThreeSum.count() for 
+ * each input size.
+ *
+ */
 public class DoublingTest {
+    
     // time ThreeSum.count() for N random 6-digit ints
     public static double timeTrial(int N) {
         int MAX = 1000000;

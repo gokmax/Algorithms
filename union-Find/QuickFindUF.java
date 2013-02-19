@@ -7,6 +7,12 @@
  * And because of that it makes UNION to N. FIND to 1.
  */
 
+/*
+ * understanding from the book:
+   QuickFindUF.java maintains the invariant that p and q are connected if and only if id[p] is equal to id[q]. In other words, all sites in a component must have the same value in id[].
+ *
+ */
+
 public class QuickFindUF {
     private int[] id;
     private int count;
@@ -42,7 +48,7 @@ public class QuickFindUF {
         return id[p] == id[q];
     }
 
-    // merge componets containing p and q
+    // merge components containing p and q
     public void union(int p, int q) {
         if (connected(p, q))return;
         int pid = id[p];

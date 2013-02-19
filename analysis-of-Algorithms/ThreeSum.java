@@ -1,4 +1,10 @@
+/*
+ * ThreeSum.java counts the number of triples in a file of N integers that sums
+ * to 0 (ignoring integer overflow).
+ *
+ */
 public class ThreeSum {
+
     // print distinct triples (i, j, k) such that a[i] + a[j] + a[k] = 0
     public static void printAll(int[] a) {
         int N = a.length;

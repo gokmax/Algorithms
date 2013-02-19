@@ -7,6 +7,11 @@
  *
  */
 
+/* Understanding from the book:
+ * Weighted quick-union. Rather than arbitrarily connecting the second tree to the first for union() in the quick-union algorithm, we keep track of the size of each tree and always connect the smaller tree to the larger. Program WeightedQuickUnionUF.java implements this approach.
+ *
+ */
+
 public class WeightedQuickUnionUF {
     private int[] id;  // id[i] = parent of i
     private int[] sz;  // sz[i] = number of objects in subtree rooted at i
