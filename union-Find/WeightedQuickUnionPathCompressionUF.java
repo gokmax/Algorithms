@@ -6,6 +6,7 @@
  *
  *  Weighted quick-union with path compression.
  *
+ *  // wait to understand.
  ****************************************************************************/
 
 public class WeightedQuickUnionPathCompressionUF {
