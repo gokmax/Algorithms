@@ -5,9 +5,9 @@ Algorithms
 
 
 ###below are some good abstract understanding of the ALGORITHMS
-    Data abstraction is naturally suited to the study of algorithms, because 
-it help us provide a framework within which we can precisely specify both what
-an algorithm needs to accomplish and how a client can make use of an algorithm.
+
+* Data abstraction is naturally suited to the study of algorithms, because 
+it help us provide a framework within which we can precisely specify both what an algorithm needs to accomplish and how a client can make use of an algorithm.
 -->> why the author used java to describe the algorithms.
 
 
