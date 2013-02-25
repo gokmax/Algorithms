@@ -13,7 +13,7 @@ public class testMyInsertionSort {
         for (int i = 1; i < l; i ++) {
             int key = nums[i];
             int j = i;
-            while (j >= 1 && key < nums[j - 1] ) {
+            while (j >= 1 && key < nums[j - 1] ) { // 注意条件的短路！！！最优条件必须放在最前！！！
                 nums[j] = nums[j - 1];
                 j --;
             }
