@@ -21,7 +21,7 @@ public class BinarySearch {
 
         while (!StdIn.isEmpty()) {
             int key = StdIn.readInt();
-            if (rank(key, whitelist) == -1) 
+            if (rank(key, whitelist) == -1)
                 StdOut.println(key);
         }
     }

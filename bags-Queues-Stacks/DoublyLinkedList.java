@@ -59,7 +59,7 @@ public class DoublyLinkedList<Item> implements Iterable<Item>{
             if (!hasNext()) throw new NoSuchElementException();
             lastAccessed = current;
             Item item = current.item;
-            current = current.next; 
+            current = current.next;
             index++;
             return item;
         }
@@ -81,7 +81,7 @@ public class DoublyLinkedList<Item> implements Iterable<Item>{
 
         // remove the element that was last accessed by next() or previous()
         // condition: no calls to remove() or add() after last call to next() or previous()
-        public void remove() { 
+        public void remove() {
             if (lastAccessed == null) throw new IllegalStateException();
             Node x = lastAccessed.prev;
             Node y = lastAccessed.next;
@@ -92,7 +92,7 @@ public class DoublyLinkedList<Item> implements Iterable<Item>{
             lastAccessed = null;
         }
 
-        // add element to list 
+        // add element to list
         public void add(Item item) {
             Node x = current.prev;
             Node y = new Node();
@@ -162,4 +162,3 @@ public class DoublyLinkedList<Item> implements Iterable<Item>{
 
     }
 }
-

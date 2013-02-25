@@ -15,7 +15,7 @@ public class Parentheses{
         for (int i = 0; i < s.length(); i ++) {
             if (s.charAt(i) == LEFT_PAREN ||
                 s.charAt(i) == LEFT_BRACKET ||
-                s.charAt(i) == LEFT_BRACE) 
+                s.charAt(i) == LEFT_BRACE)
                 stack.push(s.charAt(i));
 
             if (s.charAt(i) == RIGHT_PAREN) {

@@ -1,5 +1,5 @@
 /*
- * Wget.java can pull the content of the website file to local computer.
+ *  Wget.java can pull the content of the website file to local computer.
  * 
  *  eg: when you type "java Wget http://gokmax.com"
  *  it will pull the index page of the gokmax.com to the local computer
