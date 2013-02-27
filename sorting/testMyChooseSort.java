@@ -1,7 +1,15 @@
 import java.util.Arrays;
 
 public class testMyChooseSort {
-
+/*
+    private static void swap(int a, int b) {
+        int temp = a;
+        a = b;
+        b = temp;
+    }
+*/  
+    // in Java, swap function doesn't work unless you use the object for the 
+    // parameter is passed by value!
     public static void chooseSort(int[] a, int n) {
         for (int i = 0; i < n - 1; i ++) {
             int minIndex = i;
