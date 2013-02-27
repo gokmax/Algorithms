@@ -2,7 +2,7 @@
  * Sort the files in a given directory by filename.
  */
 /*
- * The reasonthat the Insertion.sort() Algorithms can sort all the data type is 
+ * The reasonthat the Insertion.sort() Algorithms can sort all the data type is
  * that we implements Comparable<Item> to make a callbacks.
  */
 
@@ -15,14 +15,14 @@ public class FileSorter {
         File directory = new File(args[0]);
         File[] files = directory.listFiles();
         Insertion.sort(files);
-        for (int i = 0; i < files.length; i++) 
+        for (int i = 0; i < files.length; i++)
             StdOut.println(files[i].getName());
     }
 }
 
 // Below is a eg to describe how to implement Comparable
 public class Date implements Comparable<Date> {
-    
+
     private final int day, month, year;
 
     public Date(int d, int m, int y) {
@@ -45,37 +45,3 @@ public class Date implements Comparable<Date> {
 /*
  * Belows are the details API java supports.
  */
-
-private static void boolean less(Comparable v, Comparable w) {
-    return v.compareTo(w) < 0;
-}
-
-private static void boolean exch(Comparable[] a, int i, int j) {
-    Comparable swap = a[i];
-    a[i] = a[j];
-    a[j] = swap;
-}
-
-/*
- * Test if an array is sorted
- */
-
-private static boolean isSorted(Comparable[] a) {
-    for (int i = 1; i < a.length; i ++) 
-        if (less(a[i], a[i-1])) return false;
-    return true;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
