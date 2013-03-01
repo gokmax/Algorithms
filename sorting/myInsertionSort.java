@@ -21,8 +21,7 @@ public class testMyInsertionSort {
         }
     }
 
-    public static void main (String [] args)
-    {
+    public static void main (String [] args) {
         int nums[] = {3, 2, 1, 4, 5, 6};
         insertionSort(nums, 6);
         for (int i = 0; i < 6; ++ i) StdOut.println(nums[i]);
