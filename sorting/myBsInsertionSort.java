@@ -52,7 +52,12 @@ public class myBsInsertionSort{
         int[] index = new int[9];
         index = myBsInsertionSort.sort(a);
         int N = a.length;
-        for (int i = 0; i < N; i ++) StdOut.println(b[i] + " " + a[i] + " " + index[i]);
+        StdOut.println();
+        StdOut.println("To Analyze the sort algorithm:");
+        StdOut.println();
+        StdOut.println("original " + "sorted " + "index");
+        StdOut.println();
+        for (int i = 0; i < N; i ++) StdOut.println("   " + b[i] + "       " + a[i] + "      " + index[i]);
 
     }
 }
