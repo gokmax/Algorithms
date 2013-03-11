@@ -1,11 +1,18 @@
 /*
- * need more condition.
- * be careful.
+ * Judging Conditions of Graphic:
+ *  1.The degree of each dot should be positive.
+ *  2.The sum of degrees of all dots should be even.
+ *  3.Every degree of dot should have the same amount of dots whose degree is
+ *  bigger than 0.
+ *  4.Two dots's degree should be the same.
+ *
+ *  3&4 --> by using the lemma to describe them.
+ *
  */
 
 import java.util.Arrays;
 
-public class Graph {
+public class isGraphic {
 
     public static boolean sort(int[] a) {
 
